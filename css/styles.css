@@ -182,9 +182,11 @@ body {
   line-height: 1.63;
   color: var(--main-color);
 }
-.filters__button:hover {
+.filters__button:hover,
+.filters__button:active {
   color: var(--white-acsent);
   background-color: var(--chromatic-hover);
+  cursor: pointer;
 }
 /* ----------- galery ------------ */
 .filters__card-title {
